@@ -26,6 +26,7 @@ public class Movement : MonoBehaviour
         transform.Translate(Direction() * Time.deltaTime * speedManager.Speed);
     }
 
+    //ABSTRACTION
     protected Vector3 Direction()
     {
         if (transform.position.x >= xBoundary || transform.position.x <= -xBoundary)

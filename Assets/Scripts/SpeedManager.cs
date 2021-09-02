@@ -6,6 +6,7 @@ public class SpeedManager : MonoBehaviour
 {
     private float speed = 10.0f;
 
+    //ENCAPSULATION
     public float Speed
     {
         get { return speed; }
